@@ -1,0 +1,86 @@
+@media (max-width: 992px) {
+    ul li a::after {
+        content: "";
+        width: 0;
+        height: 2px;
+        background-color: var(--pink-color);
+        display: block;
+        transition: 0.3s linear;
+        margin: 0;
+    }
+
+    nav a:hover::after {
+        width: 23%;
+    }
+}
+
+@media (max-width: 550px) {
+    .home-Heading h1 {
+        font-size: 52px !important;
+        font-family: var(--header-Font);
+        color: var(--pink-color) !important;
+
+        && span {
+            font-size: 52px !important;
+            font-family: var(--header-Font);
+            color: var(--purple-color) !important;
+        }
+    }
+
+    .about-Heading h1 {
+        font-size: 52px !important;
+        font-family: var(--header-Font);
+        color: var(--pink-color) !important;
+
+        && span {
+            font-size: 52px !important;
+            font-family: var(--header-Font);
+            color: var(--purple-color) !important;
+        }
+    }
+
+    .services-Heading h1 {
+        font-size: 52px !important;
+        font-family: var(--header-Font);
+        color: var(--pink-color) !important;
+
+        && span {
+            font-size: 52px !important;
+            font-family: var(--header-Font);
+            color: var(--purple-color) !important;
+        }
+    }
+
+    .product-Heading h1 {
+        font-size: 52px !important;
+        font-family: var(--header-Font);
+        color: var(--pink-color) !important;
+
+        && span {
+            font-size: 52px !important;
+            font-family: var(--header-Font);
+            color: var(--purple-color) !important;
+        }
+    }
+
+    .contact-Heading h1 {
+        font-size: 52px !important;
+        font-family: var(--header-Font);
+        color: var(--pink-color) !important;
+
+        && span {
+            font-size: 52px !important;
+            font-family: var(--header-Font);
+            color: var(--purple-color) !important;
+        }
+    }
+
+    .home-Heading p {
+        font-size: 16px;
+    }
+
+    .home-Img {
+        width: 50%;
+        margin: auto;
+    }
+}
